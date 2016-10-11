@@ -7,8 +7,6 @@ function test2(message) {
   console.log(message);
 }
 
-
-
 function cube(nb) {
   return nb * nb * nb;
 }
@@ -27,26 +25,6 @@ function isNegative(nb) {
   } else {
     return false;
   }
-}
-
-function isSquare(nb1, nb2, nb3, nb4) {
-  var square = true; // on présuppose qu'il s'agit d'un carré
-  var sides = [nb2, nb3, nb4]; // on stoque les arguments
-  // dans un tableau afin de pouvoir le parcourir (via une boucle)
-
-  // on boucle à partir deuxième élément du tableau (premier déjà connu)
-  for (var i=0; i<sides.length; i++) {
-    if (sides[i] != nb1) {
-      // comparaison systématique avec la premier côté
-      // si l'on trouve une inégalité
-      // on renvoie immédiatement la valeur false
-      // => ce n'est pas un carré
-      square = false;
-      return square;
-    }
-
-  }
-  return square;
 }
 
 test(); // appel de la function
@@ -82,3 +60,8 @@ console.log(calcul); //167
 
 console.log(simpleMath.addition(4,6));
 console.log(simpleMath.multiplication(4,6));
+
+console.log(geometry.isSquare(5,5,5,5));
+
+biblioRo.afficheMessage();
+biblioIt.afficheMessage();

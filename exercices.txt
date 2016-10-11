@@ -1,10 +1,13 @@
-EXO
+https://github.com/cdufour/javascript
 
-Afficher dans la console la première couleur situ�e dans le tableau
+
+EXERCICES
+
+Afficher dans la console la première couleur située dans le tableau
 de couleurs de l'objet obj2
 
 Par le biais d'une boucle for, afficher dans la console
-toutes les couleurs situ�es dans le tableau
+toutes les couleurs situées dans le tableau
 de couleurs de l'objet obj2
 
 Dans la boucle sur les couleurs,
