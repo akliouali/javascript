@@ -1,16 +1,56 @@
 EXO
 
-Afficher dans la console la premi�re couleur situ�e dans le tableau
+Afficher dans la console la première couleur situ�e dans le tableau
 de couleurs de l'objet obj2
 
-Par le biais d'une boucle for, afficher dans la console 
-toutes les couleurs situ�es dans le tableau
+Par le biais d'une boucle for, afficher dans la console
+toutes les couleurs situ�es dans le tableau
 de couleurs de l'objet obj2
 
-Dans la boucle sur les couleurs, 
-afficher dans la console("J'adore le jaune") si la couleur it�r�e
+Dans la boucle sur les couleurs,
+afficher dans la console("J'adore le jaune") si la couleur it�r�e
 est le jaune
 
 Afficher dans la console, le nombre de clients inactifs
 
-Afficher dans la console la moyenne d'�ge des clients
+Afficher dans la console la moyenne d'âge des clients
+
+// JOUR 2
+
+Tester la variable couleurs
+avec une structure swith case pour afficher dans la console:
+"couleur du sang" lorsque le cas "rouge" est rencontré
+"couleur de l'espoir"..."vert"
+"couleur de la douceur"..."cerise"
+"couleur de l'or"..."jaune"
+"couleur non traitée" lorsque le cas n'est pas été rencontré
+
+
+Définir et appeler une function multiplication
+qui renvoie le produit de 2 valeurs fournies en entrée
+
+
+Définir et appeler une function 'cube'
+qui renvoie le cube de la valeur passée en argument
+
+exemple: cube(3) => 3*3*3 = 27
+
+
+Définir et appeler une function 'puissance' avec deux arguments
+- nombre qu'on souhaite élever à une certaine puissance
+- puissance
+
+exemple: puissance(5, 2) => 5 * 5 => 25
+puissance(5, 4) => 5 * 5 * 5 * 5 => 625
+
+
+Définir et appeler une function 'isNegative'
+- En entrée: un nombre
+- En sortie: booléen indiquant si le nombre est négatif ou pas
+Exemple: isNegative(8) => false
+isNegative(-8) => true
+
+
+Définir et appeler une function 'isSquare'
+- En entrée: 4 nombres
+- En sortie: booléen indiquant s'il s'agit d'un carré (4 côtés égaux)
