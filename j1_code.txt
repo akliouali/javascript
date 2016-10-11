@@ -1,0 +1,74 @@
+var premierMessage = "Bonjour";
+premierMessage = 12345;
+
+var nb1 = 10; // initialisation de la variable nb1
+var nb2 = 6;
+var nb3 = 89;
+
+var prenom = "Chris";
+var sposato = true; // true ou false => valeur booléenne
+var cbNumber = null; // initialisation explicite en attendant une autre valeur ultérieure
+var secuNumber = undefined; // undefined: type géré par le moteur JS lorsqu'in rencontre
+// un variable non définie
+var obj = {}; // déclaration d'un objet vide
+obj.name = "Chris";
+obj.age = 89;
+obj.sposato = true;
+
+var obj2 = {
+  prix: 14.99,
+  couleurs: ["noir","vert","orange", "kaki", "rose"],
+  poids: 12,
+  nom: {
+    complet: "Fer à repasser Roventa Express Fire",
+    abrege: "Fer à repasser"
+  }
+};
+
+var couleurs = ["marron", "rouge", "vert"];
+
+console.log(nb1 + nb2); 
+
+// concaténation
+console.log("Le formateur " + prenom + " est âgé de " + nb3 + " ans");
+
+console.log(typeof couleurs); 
+//typeof: function native JS permettant de connaître le type de valeur testé
+
+console.log("L'objet pèse " + obj2.poids + " kilos");
+
+couleurs[1] = "rose";
+couleurs[3] = "noir"; // ajout d'une quatrième couleur dans le tableau
+
+console.log("Ma couleur préférée est le: " + couleurs[3]);
+
+console.log(obj2.nom.complet);
+console.log(obj2.nom.abrege);
+
+console.log(obj2.couleurs[0]);
+
+var client1 = {firstname:"Alessandro", lastname:"Nesta"};
+var client2 = {firstname:"Victor", lastname:"Hugo"};
+var client3 = {firstname:"Hermann", lastname:"Hesse"};
+
+var clients = [client1, client2, client3];
+console.log(clients[2].firstname);
+
+/*
+var max = 4;
+for(var i=0; i<max; i++) {
+  console.log(i);
+}
+*/
+
+
+for(var i=0; i<obj2.couleurs.length; i++) {
+  console.log("Couleur " + (i+1) + " : " + obj2.couleurs[i]);
+}
+
+
+//console.log("Bon appétit !");
+
+
+
+

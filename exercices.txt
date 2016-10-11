@@ -1,0 +1,16 @@
+EXO
+
+Afficher dans la console la première couleur située dans le tableau
+de couleurs de l'objet obj2
+
+Par le biais d'une boucle for, afficher dans la console 
+toutes les couleurs situées dans le tableau
+de couleurs de l'objet obj2
+
+Dans la boucle sur les couleurs, 
+afficher dans la console("J'adore le jaune") si la couleur itérée
+est le jaune
+
+Afficher dans la console, le nombre de clients inactifs
+
+Afficher dans la console la moyenne d'âge des clients
