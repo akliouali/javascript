@@ -65,10 +65,14 @@ function ready() {
     for (var i = 0; i < images.length; i++) {
 
       if (imagesVisible) {
+        // on masque l'image
         images[i].style.opacity = 0;
+        btnHideImages.innerText = "Afficher Images";
         //images[i].style.visibility = "hidden";
       } else { // l'image est masquée
-        //images[i].style.opacity = 1;
+        // on affiche l'image
+        images[i].style.opacity = 1;
+        btnHideImages.innerText = "Masquer Images";
       }
       //images[i].style.display = "none";
     }
