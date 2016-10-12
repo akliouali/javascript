@@ -57,3 +57,9 @@ isNegative(-8) => true
 Définir et appeler une function 'isSquare'
 - En entrée: 4 nombres
 - En sortie: booléen indiquant s'il s'agit d'un carré (4 côtés égaux)
+
+JOUR 3
+
+Ajouter à la page index.html un bouton 'Reset'
+Lorsqu'on clique sur ce bouton les images de la classe 'clients'
+retrouvent leur largeur d'origine (100px)

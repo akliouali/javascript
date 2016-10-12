@@ -11,15 +11,33 @@
         text-decoration: underline;
       }
       .client {
-        width: 100px
+        width: 100px;
       }
+
     </style>
   </head>
-  <body>
+  <!-- On exécute la function ready()
+  lorsque le dom est entièrement chargé -->
+  <body onLoad="ready()">
     <h1 id="titre">Formation Javascript</h1>
     <img class="client" src="img/pogba.jpg" alt="" /><br>
     <img class="client" src="img/marchisio.png" alt="" /><br>
-    <img class="client" src="img/hugo.jpeg" alt="" />
+    <img class="client" src="img/hugo.jpeg" alt="" /><br>
+    <button id="btnTest">Test</button>
+    <button id="btnReset">Reset</button>
+    Couleur:
+    <input id="inputColor" type="text" placeholder="#336699">
+
+    <select id="selectColor">
+      <option value="orange">Orange</option>
+      <option value="red">Rouge</option>
+      <option value="yellow">Jaune</option>
+      <option value="green">Vert</option>
+      <option value="black">Noir</option>
+      <option value="#55FE33">Surprise</option>
+    </select>
+    <button id="btnValidColor">Valider</button>
+    <button id="btnHideImages">Masquer Images</button>
 
     <script src="scripts/dom.js"></script>
   </body>
