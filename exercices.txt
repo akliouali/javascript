@@ -63,3 +63,15 @@ JOUR 3
 Ajouter à la page index.html un bouton 'Reset'
 Lorsqu'on clique sur ce bouton les images de la classe 'clients'
 retrouvent leur largeur d'origine (100px)
+
+
+
+
+JOUR 4
+
+Afficher le nombre de caractères restants (le paragraphe en entier)
+en rouge lorsqu'il arrive à 0
+
+
+Lorsque souris entre : afficher nom du personnage
+Lorsque souris quitte : masquer nom du personnage

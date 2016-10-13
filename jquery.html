@@ -7,70 +7,59 @@
       .client {
         width: 100px;
       }
+      #toc {
+        background-color: #eee;
+        border: 1px #888 solid;
+        width: 20%;
+        margin: 10px
+      }
+      #toc span {
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer
+      }
+      #articles h2 {
+        cursor: pointer
+      }
     </style>
   </head>
   <body>
     <h1 id="title">Formation jQuery</h1>
-    <img class="client" src="img/pogba.jpg" alt="" /><br>
-    <img class="client" src="img/marchisio.png" alt="" /><br>
+    <img class="client" src="img/pogba.jpg" alt="" />
+    <img class="client" src="img/marchisio.png" alt="" />
     <img class="client" src="img/hugo.jpeg" alt="" /><br>
 
     <button id="btnHideImages">Masquer images</button>
 
+    <div id="toc">
+      Sommaire [<span>Masquer</span>]
+      <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ol>
+    </div>
+
+    <div id="articles">
+      <h2>Article 1</h2>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quibusdam nam nemo ea corrupti illum adipisci fugit nesciunt dolorem fuga architecto accusantium, officiis iste molestiae autem, et dolor placeat distinctio.
+      </article>
+
+      <h2>Article 2</h2>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quibusdam nam nemo ea corrupti illum adipisci fugit nesciunt dolorem fuga architecto accusantium, officiis iste molestiae autem, et dolor placeat distinctio.
+      </article>
+
+      <h2>Article 3</h2>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quibusdam nam nemo ea corrupti illum adipisci fugit nesciunt dolorem fuga architecto accusantium, officiis iste molestiae autem, et dolor placeat distinctio.
+      </article>
+    </div>
+
     <script src="scripts/jquery-3.1.1.min.js"></script>
-    <script>
-
-      $(document).ready(function() {
-        // votre code jquery ici
-        var imagesVisible = true;
-        var btnText = "";
-
-        // ajoute une bordure orange à tous les éléments
-        // de la classe 'client'
-
-        $(".client").css("border", "4px orange solid");
-
-        // modification de plusieurs propriétés css
-        $("#title").css({
-          color: "red",
-          textDecoration: "underline",
-          margin: "10px"
-        });
-
-        $("#btnHideImages").click(function() {
-          $(".client").toggle();
-
-          /*
-          if (imagesVisible) {
-            $(this).text("Afficher images");
-          } else {
-            $(this).text("Masquer images");
-          }
-          */
-
-          /*
-          if (imagesVisible) {
-            btnText = "Afficher";
-          } else {
-            btnText = "Masquer";
-          }
-          */
-
-          // opérateur ternaire : permet une concision d'écriture
-          // des traitements conditionnels (if) à une instruction.
-          // (expression booléenne) ? instruction si vrai : instruction si faux
-          btnText = (imagesVisible) ? "Afficher" : "Masquer";
-          $(this).text(btnText + " images");
-          imagesVisible = !imagesVisible;
-        });
-
-        $('.client').click(function() {
-          $('.client').css("width", "100px");
-          $(this).css("width", "200px");
-        });
-
-      }); // fin ready()
-
-    </script>
+    <script src="scripts/training.js"></script>
   </body>
 </html>

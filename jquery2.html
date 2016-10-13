@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <style>
+      .client {
+        height: 100px
+      }
+      .test {
+        opacity: 0.2;
+      }
+      #clients div {
+        float:left;
+        margin-right: 10px
+      }
+
+      #clients p {
+        text-align: center;
+        display:none;
+        background-color: #eee;
+        font-size:.8rem;
+        padding: 4px;
+        border-radius: 6px;
+        color: orange
+      }
+
+      #selectImage {
+        margin-top:40px
+      }
+
+      #selectImage img {
+        width: 200px;
+        display: block;
+        margin-top:8px
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="evaluation" name="name" rows="8" cols="40">
+
+    </textarea>
+
+    <p id="nbChars"></p>
+
+    <div id="clients">
+      <div>
+        <img class="client" src="img/pogba.jpg" alt="" />
+        <p>Pogba</p>
+      </div>
+
+      <div>
+        <img class="client" src="img/marchisio.png" alt="" />
+        <p>Marchisio</p>
+      </div>
+
+      <div>
+        <img class="client" src="img/hugo.jpeg" alt="" />
+        <p>Hugo</p>
+      </div>
+    </div>
+
+    <div style="clear:both"></div>
+
+    <div id="selectImage">
+      <select>
+        <option value="pogba.jpg">Pogba</option>
+        <option value="marchisio.png">Marchisio</option>
+        <option value="hugo.jpeg">Hugo</option>
+        <option value="zola.jpg">Zola</option>
+      </select>
+      <img src="img/pogba.jpg" alt="">
+    </div>
+
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/jquery2.js"></script>
+  </body>
+</html>
