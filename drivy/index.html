@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drivy</title>
+    <style>
+      .car {
+        margin:10px 0;
+        border: 1px orange solid;
+        width: 200px;
+        padding:6px;
+        cursor: pointer
+      }
+      #carImage {
+        position:absolute;
+        left:250px;
+        top:50px
+      }
+      #cbDisplayImage {
+        display: none /* checkbox masqué par défaut */
+      }
+    </style>
+  </head>
+  <body>
+    <button id="loadCars">Charger les voitures</button>
+    <span id="cbDisplayImage">
+      <input checked type="checkbox">Afficher photo au survol
+    </span>
+
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/drivy.js"></script>
+  </body>
+</html>

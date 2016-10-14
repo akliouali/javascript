@@ -75,3 +75,15 @@ en rouge lorsqu'il arrive à 0
 
 Lorsque souris entre : afficher nom du personnage
 Lorsque souris quitte : masquer nom du personnage
+
+
+JOUR 5
+Créer une page quizz.html
+Cette page contiendra :
+- une question : "Quelle est la capitale de la Roumanie ?"
+- un champ de saisie, pour saisir la réponse
+- un bouton de validation, pour valider la réponse
+- une zone d'affichage (p ou div) pour indiquer si la réponse est
+correcte ou pas
+
+Option: gérer un nombre maximal de tentatives (exemple: 3)
