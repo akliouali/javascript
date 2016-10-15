@@ -1,0 +1,21 @@
+1/ fichier 'quizz.html'
+Gérer un nombre maximal de tentatives
+
+
+2/ dossier 'translator'
+Ce dossier contient tout ce qu'il faut pour démarrer le projet :
+- page index.html
+- bibliothèque jquery et fichier 'translator.js'
+- source de données dans le fichier 'words.json'
+
+Créer une petite application de traduction trilingue en vous basant sur
+les deux captures d'écran placées dans le dossier 'translator'
+
+- translator-capture1.png : dès le chargement de la page 'index.html'
+on affiche à l'écran la liste des mots français.
+Les mots devront provenir du fichier 'words.json'.
+Deux boutons permettent d'afficher respectivement la liste des traductions
+en anglais et en italien.
+
+- translator-capture2.png : le clic sur un bouton affiche les mots dans la langue
+correspondante
